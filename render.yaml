@@ -3,6 +3,7 @@ services:
   - type: web
     name: webdis
     env: docker
+    repo: https://github.com/prest/prest.git
     plan: free
     rootDir: .
     numInstances: 1 # optional (defaults to 1)
